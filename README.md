@@ -18,16 +18,19 @@ Make a backup
 
 Navigate to the directory where you extracted the files.
 Before deleting everything, if you want you can make a backup of all the standard components by doing the following commands:
+
 ```ant retrieve```
 
 Deploy empty files
 ------------------
 
-Because of cross references you can't actually delete everything first, so you must deploy empty values of the files, before being able to delete
+Because of cross references you can't actually delete everything first, so you must deploy empty values of the files, before being able to delete.
+
 ```ant deployempty```
 
 Delete the files
 ----------------
 
 Finally the point we have been waiting for, deleteing the content.
+
 ```ant delete```
