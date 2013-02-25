@@ -1,0 +1,26 @@
+<project name="Delete Salesforce Site Components" default="retrieve" basedir="." xmlns:sf="antlib:com.salesforce">
+
+    <property file="build.properties"/>
+    <property environment="env"/>
+
+    <target name="retrieve">
+      <mkdir dir="retrieve"/>
+      <!-- Retrieve the contents into another directory -->
+      <sf:retrieve 
+        username="${sf.username}" 
+        password="${sf.password}" 
+        serverurl="${sf.serverurl}" 
+        retrieveTarget="retrieve" 
+        unpackaged="retrieve/package.xml"/>
+    </target>
+
+    <target name="deployempty">
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="deployempty"/>
+    </target>
+
+
+    <target name="delete">
+      <sf:deploy username="${sf.username}" password="${sf.password}" serverurl="${sf.serverurl}" deployRoot="delete"/>
+    </target>
+
+</project>
