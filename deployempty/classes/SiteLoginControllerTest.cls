@@ -1,0 +1,1 @@
+@IsTest global with sharing class SiteLoginControllerTest {}
