@@ -31,6 +31,6 @@ Because of cross references you can't actually delete everything first, so you m
 Delete the files
 ----------------
 
-Finally the point we have been waiting for, deleteing the content.
+Finally the point we have been waiting for, deleting the content.
 
 ```ant delete```
