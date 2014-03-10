@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>ChangePasswordController</members>
@@ -11,6 +11,14 @@
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>CommunitiesLandingController</members>
+        <members>CommunitiesLandingControllerTest</members>
+        <members>CommunitiesLoginController</members>
+        <members>CommunitiesLoginControllerTest</members>
+        <members>CommunitiesSelfRegConfirmController</members>
+        <members>CommunitiesSelfRegConfirmControllerTest</members>
+        <members>CommunitiesSelfRegController</members>
+        <members>CommunitiesSelfRegControllerTest</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -38,6 +46,11 @@
         <members>StdExceptionTemplate</members>
         <members>Unauthorized</members>
         <members>UnderConstruction</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
         <name>ApexPage</name>
     </types>
     <types>
