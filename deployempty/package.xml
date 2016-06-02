@@ -3,14 +3,6 @@
     <types>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
-        <members>ForgotPasswordController</members>
-        <members>ForgotPasswordControllerTest</members>
-        <members>MyProfilePageController</members>
-        <members>MyProfilePageControllerTest</members>
-        <members>SiteLoginController</members>
-        <members>SiteLoginControllerTest</members>
-        <members>SiteRegisterController</members>
-        <members>SiteRegisterControllerTest</members>
         <members>CommunitiesLandingController</members>
         <members>CommunitiesLandingControllerTest</members>
         <members>CommunitiesLoginController</members>
@@ -19,6 +11,17 @@
         <members>CommunitiesSelfRegConfirmControllerTest</members>
         <members>CommunitiesSelfRegController</members>
         <members>CommunitiesSelfRegControllerTest</members>
+        <members>ForgotPasswordController</members>
+        <members>ForgotPasswordControllerTest</members>
+        <members>LightningForgotPasswordController</members>
+        <members>LightningLoginFormController</members>
+        <members>LightningSelfRegisterController</members>
+        <members>MyProfilePageController</members>
+        <members>MyProfilePageControllerTest</members>
+        <members>SiteLoginController</members>
+        <members>SiteLoginControllerTest</members>
+        <members>SiteRegisterController</members>
+        <members>SiteRegisterControllerTest</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -32,6 +35,11 @@
         <members>AnswersHome</members>
         <members>BandwidthExceeded</members>
         <members>ChangePassword</members>
+        <members>CommunitiesLanding</members>
+        <members>CommunitiesLogin</members>
+        <members>CommunitiesSelfReg</members>
+        <members>CommunitiesSelfRegConfirm</members>
+        <members>CommunitiesTemplate</members>
         <members>Exception</members>
         <members>FileNotFound</members>
         <members>ForgotPassword</members>
@@ -46,12 +54,7 @@
         <members>StdExceptionTemplate</members>
         <members>Unauthorized</members>
         <members>UnderConstruction</members>
-        <members>CommunitiesLanding</members>
-        <members>CommunitiesLogin</members>
-        <members>CommunitiesSelfReg</members>
-        <members>CommunitiesSelfRegConfirm</members>
-        <members>CommunitiesTemplate</members>
         <name>ApexPage</name>
     </types>
-    <version>27.0</version>
+    <version>37.0</version>
 </Package>
