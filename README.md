@@ -13,6 +13,15 @@ Create your site
 
 Next you create your Salesforce Site, by creating your site, salesforce generates Apex Classes, VisualForce Components, VisualForce Pages and a Static Resource. Next you change the Site's error pages, and remove all the default pages, replace them with your own.
 
+Before running the scripts
+----------------
+
+Before running the scripts, you will need to fill in the Salesforce username and password in the build.properties file. Also, make sure that the Salesforce Metadata Jar file is accessible for your ANT installation by either:
+
+1. Placing the JAR file in the lib folder of your ANT installation
+  
+2. Adding an extra argument to the commands described hereunder, like so: ```ant retrieve -lib \path\to\JAR```
+
 Make a backup
 -------------
 
@@ -26,7 +35,7 @@ Deploy empty files
 
 Because of cross references you can't actually delete everything first, so you must deploy empty values of the files, before being able to delete.
 
-```ant deployempty```
+```ant ```
 
 Delete the files
 ----------------
