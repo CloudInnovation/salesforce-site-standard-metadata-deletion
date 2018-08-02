@@ -35,7 +35,7 @@ Deploy empty files
 
 Because of cross references you can't actually delete everything first, so you must deploy empty values of the files, before being able to delete.
 
-```ant ```
+```ant deployempty```
 
 Delete the files
 ----------------
