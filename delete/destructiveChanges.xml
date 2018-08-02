@@ -3,8 +3,6 @@
     <types>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
-        <members>CommunitiesLandingController</members>
-        <members>CommunitiesLandingControllerTest</members>
         <members>CommunitiesLoginController</members>
         <members>CommunitiesLoginControllerTest</members>
         <members>CommunitiesSelfRegConfirmController</members>
@@ -13,9 +11,6 @@
         <members>CommunitiesSelfRegControllerTest</members>
         <members>ForgotPasswordController</members>
         <members>ForgotPasswordControllerTest</members>
-        <members>LightningForgotPasswordController</members>
-        <members>LightningLoginFormController</members>
-        <members>LightningSelfRegisterController</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>SiteLoginController</members>
@@ -35,7 +30,6 @@
         <members>AnswersHome</members>
         <members>BandwidthExceeded</members>
         <members>ChangePassword</members>
-        <members>CommunitiesLanding</members>
         <members>CommunitiesLogin</members>
         <members>CommunitiesSelfReg</members>
         <members>CommunitiesSelfRegConfirm</members>
