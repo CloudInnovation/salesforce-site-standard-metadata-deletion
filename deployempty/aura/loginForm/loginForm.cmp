@@ -1,0 +1,3 @@
+<!-- add implements="forceCommunity:availableForAllPageTypes" to surface the component in community builder -->
+<aura:component>
+</aura:component>
