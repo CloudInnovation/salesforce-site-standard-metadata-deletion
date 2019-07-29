@@ -11,12 +11,6 @@
         <members>CommunitiesSelfRegControllerTest</members>
         <members>ForgotPasswordController</members>
         <members>ForgotPasswordControllerTest</members>
-        <members>LightningForgotPasswordController</members>
-        <members>LightningForgotPasswordControllerTest</members>
-        <members>LightningLoginFormController</members>
-        <members>LightningLoginFormControllerTest</members>
-        <members>LightningSelfRegisterController</members>
-        <members>LightningSelfRegisterControllerTest</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
         <members>SiteLoginController</members>
@@ -24,14 +18,6 @@
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
         <name>ApexClass</name>
-    </types>
-    <types>
-        <members>forgotPassword</members>
-        <members>loginForm</members>
-        <members>selfRegister</members>
-        <members>setExpId</members>
-        <members>setStartUrl</members>
-        <name>AuraDefinitionBundle</name>
     </types>
     <types>
         <members>SiteFooter</members>
@@ -64,5 +50,5 @@
         <members>UnderConstruction</members>
         <name>ApexPage</name>
     </types>
-    <version>45.0</version>
+    <version>37.0</version>
 </Package>
