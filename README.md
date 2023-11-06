@@ -6,7 +6,7 @@ This is an Apache ANT script using the Salesforce Metadata API, that makes delet
 Install Apache ANT and the Salesforce Metadata Jar
 --------------------------------------------------
 
-Before being able to use the script, you need to have Java, Apache ANT and the Salesforce Metadata Jar installed, more about that in the Salesforce.com documentation: [Force.com Migration Tool Guide](http://www.salesforce.com/us/developer/docs/daas/salesforce_migration_guide.pdf)
+Before being able to use the script, you need to have Java, Apache ANT and the Salesforce Metadata Jar installed, more about that in the Salesforce.com documentation: [Force.com Migration Tool Guide](https://developer.salesforce.com/docs/atlas.en-us.daas.meta/daas/forcemigrationtool_install.htm)
 
 Create your site
 ----------------
